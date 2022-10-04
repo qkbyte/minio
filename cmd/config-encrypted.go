@@ -26,9 +26,9 @@ import (
 	"unicode/utf8"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 	etcd "go.etcd.io/etcd/client/v3"
 )
 

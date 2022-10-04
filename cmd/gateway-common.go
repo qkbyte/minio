@@ -24,12 +24,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 
 	minio "github.com/minio/minio-go/v7"
 )

@@ -26,9 +26,9 @@ import (
 	humanize "github.com/dustin/go-humanize"
 	"github.com/gorilla/mux"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
+	"github.com/qkbyte/minio/internal/bucket/versioning"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

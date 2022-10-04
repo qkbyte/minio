@@ -28,9 +28,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/minio/kes"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

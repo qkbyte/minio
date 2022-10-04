@@ -29,11 +29,11 @@ import (
 	"github.com/minio/minio-go/v7"
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/bucket/replication"
+	"github.com/qkbyte/minio/internal/bucket/versioning"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

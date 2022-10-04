@@ -21,7 +21,7 @@ import (
 	"fmt"
 	"strings"
 
-	"github.com/minio/minio/internal/config"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 const (

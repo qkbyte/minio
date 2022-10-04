@@ -29,11 +29,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/handlers"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/handlers"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

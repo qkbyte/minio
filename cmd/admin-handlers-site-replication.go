@@ -29,9 +29,9 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/minio/madmin-go"
 
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // SiteReplicationAdd - PUT /minio/admin/v3/site-replication/add

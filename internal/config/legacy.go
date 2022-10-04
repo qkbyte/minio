@@ -17,7 +17,7 @@
 
 package config
 
-import "github.com/minio/minio/internal/auth"
+import "github.com/qkbyte/minio/internal/auth"
 
 // One time migration code section
 

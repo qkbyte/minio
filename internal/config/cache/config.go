@@ -23,8 +23,8 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/ellipses"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 const (

@@ -32,12 +32,12 @@ import (
 
 	"github.com/klauspost/readahead"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
 	"github.com/minio/pkg/mimedb"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/sync/errgroup"
 )
 
 func (er erasureObjects) getUploadIDDir(bucket, object, uploadID string) string {

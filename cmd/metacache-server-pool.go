@@ -28,8 +28,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/bucket/lifecycle"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 func renameAllBucketMetacache(epPath string) error {

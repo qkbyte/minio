@@ -26,7 +26,7 @@ import (
 
 	"github.com/cespare/xxhash/v2"
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // XL constants.

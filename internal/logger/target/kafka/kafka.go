@@ -29,9 +29,9 @@ import (
 	"github.com/Shopify/sarama"
 	saramatls "github.com/Shopify/sarama/tools/tls"
 
-	"github.com/minio/minio/internal/logger/message/audit"
-	"github.com/minio/minio/internal/logger/target/types"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/logger/message/audit"
+	"github.com/qkbyte/minio/internal/logger/target/types"
 )
 
 // Target - Kafka target.

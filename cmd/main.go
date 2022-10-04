@@ -28,11 +28,11 @@ import (
 	"strings"
 
 	"github.com/minio/cli"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
 	"github.com/minio/pkg/trie"
 	"github.com/minio/pkg/words"
+	"github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // GlobalFlags - global flags for minio.

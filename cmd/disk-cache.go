@@ -28,14 +28,14 @@ import (
 	"sync/atomic"
 	"time"
 
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/config/cache"
-	"github.com/minio/minio/internal/disk"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
 	"github.com/minio/pkg/wildcard"
+	objectlock "github.com/qkbyte/minio/internal/bucket/object/lock"
+	"github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/config/cache"
+	"github.com/qkbyte/minio/internal/disk"
+	"github.com/qkbyte/minio/internal/hash"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/sync/errgroup"
 )
 
 const (

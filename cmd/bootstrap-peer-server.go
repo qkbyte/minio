@@ -30,10 +30,10 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/minio/minio-go/v7/pkg/set"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/rest"
 	"github.com/minio/pkg/env"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/rest"
 )
 
 const (

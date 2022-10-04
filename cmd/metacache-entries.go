@@ -26,8 +26,8 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // metaCacheEntry is an object or a directory within an unknown bucket.

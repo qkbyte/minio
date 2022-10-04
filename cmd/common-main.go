@@ -56,17 +56,17 @@ import (
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/credentials"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/handlers"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/certs"
 	"github.com/minio/pkg/console"
 	"github.com/minio/pkg/ellipses"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/handlers"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 	"github.com/rs/dnscache"
 )
 
@@ -83,7 +83,7 @@ func init() {
 		if mousetrap.StartedByExplorer() {
 			fmt.Printf("Don't double-click %s\n", os.Args[0])
 			fmt.Println("You need to open cmd.exe/PowerShell and run it from the command line")
-			fmt.Println("Refer to the docs here on how to run it as a Windows Service https://github.com/minio/minio-service/tree/master/windows")
+			fmt.Println("Refer to the docs here on how to run it as a Windows Service https://github.com/qkbyte/minio-service/tree/master/windows")
 			fmt.Println("Press the Enter Key to Exit")
 			fmt.Scanln()
 			os.Exit(1)

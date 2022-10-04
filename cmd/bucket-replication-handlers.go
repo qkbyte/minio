@@ -26,10 +26,10 @@ import (
 	"time"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/internal/bucket/replication"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
+	"github.com/qkbyte/minio/internal/bucket/replication"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // PutBucketReplicationConfigHandler - PUT Bucket replication configuration.

@@ -28,12 +28,12 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/minio/minio/internal/crypto"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	xnet "github.com/minio/pkg/net"
 	"github.com/minio/zipindex"
+	"github.com/qkbyte/minio/internal/crypto"
+	xioutil "github.com/qkbyte/minio/internal/ioutil"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

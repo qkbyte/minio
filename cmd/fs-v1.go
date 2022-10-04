@@ -35,15 +35,15 @@ import (
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/config"
-	xhttp "github.com/minio/minio/internal/http"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/lock"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/mountinfo"
 	"github.com/minio/pkg/bucket/policy"
 	"github.com/minio/pkg/mimedb"
+	"github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/config"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	xioutil "github.com/qkbyte/minio/internal/ioutil"
+	"github.com/qkbyte/minio/internal/lock"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/mountinfo"
 )
 
 // Default etag is used for pre-existing objects.

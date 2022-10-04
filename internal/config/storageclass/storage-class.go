@@ -24,8 +24,8 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // Standard constants for all storage class

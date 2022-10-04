@@ -28,10 +28,10 @@ import (
 	"time"
 
 	jwtgo "github.com/golang-jwt/jwt/v4"
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/auth"
 	iampolicy "github.com/minio/pkg/iam/policy"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/arn"
+	"github.com/qkbyte/minio/internal/auth"
 )
 
 type publicKeys struct {

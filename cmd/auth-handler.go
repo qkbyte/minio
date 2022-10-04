@@ -32,15 +32,15 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/minio/internal/auth"
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/etag"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	xjwt "github.com/minio/minio/internal/jwt"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/qkbyte/minio/internal/auth"
+	objectlock "github.com/qkbyte/minio/internal/bucket/object/lock"
+	"github.com/qkbyte/minio/internal/etag"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	xjwt "github.com/qkbyte/minio/internal/jwt"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // Verify if request has JWT.

@@ -30,8 +30,8 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 //go:generate stringer -type=storageMetric -trimprefix=storageMetric $GOFILE

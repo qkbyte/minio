@@ -23,9 +23,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/config"
 	clientv3 "go.etcd.io/etcd/client/v3"
 	"go.etcd.io/etcd/client/v3/namespace"
 	"go.uber.org/zap"

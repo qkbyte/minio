@@ -20,18 +20,18 @@ package cmd
 import (
 	"sync"
 
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/cache"
-	"github.com/minio/minio/internal/config/compress"
-	xldap "github.com/minio/minio/internal/config/identity/ldap"
-	"github.com/minio/minio/internal/config/identity/openid"
-	"github.com/minio/minio/internal/config/notify"
-	"github.com/minio/minio/internal/config/policy/opa"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/event/target"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/quick"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/config/cache"
+	"github.com/qkbyte/minio/internal/config/compress"
+	xldap "github.com/qkbyte/minio/internal/config/identity/ldap"
+	"github.com/qkbyte/minio/internal/config/identity/openid"
+	"github.com/qkbyte/minio/internal/config/notify"
+	"github.com/qkbyte/minio/internal/config/policy/opa"
+	"github.com/qkbyte/minio/internal/config/storageclass"
+	"github.com/qkbyte/minio/internal/event/target"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 type configV1 struct {

@@ -34,10 +34,10 @@ import (
 
 	elasticsearch7 "github.com/elastic/go-elasticsearch/v7"
 	"github.com/minio/highwayhash"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
 	"github.com/pkg/errors"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // Elastic constants

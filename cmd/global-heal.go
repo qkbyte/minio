@@ -26,13 +26,13 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/jobtokens"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
 	"github.com/minio/pkg/env"
 	"github.com/minio/pkg/wildcard"
+	"github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/config/storageclass"
+	"github.com/qkbyte/minio/internal/jobtokens"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

@@ -23,12 +23,12 @@ import (
 	"sync"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/logger/message/log"
-	"github.com/minio/minio/internal/logger/target/console"
-	"github.com/minio/minio/internal/logger/target/types"
-	"github.com/minio/minio/internal/pubsub"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/logger/message/log"
+	"github.com/qkbyte/minio/internal/logger/target/console"
+	"github.com/qkbyte/minio/internal/logger/target/types"
+	"github.com/qkbyte/minio/internal/pubsub"
 )
 
 // number of log messages to buffer

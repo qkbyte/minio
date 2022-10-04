@@ -32,11 +32,11 @@ import (
 	"github.com/gorilla/mux"
 	"github.com/minio/cli"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/config"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/certs"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/config"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 var gatewayCmd = cli.Command{

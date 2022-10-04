@@ -29,7 +29,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/minio/minio/internal/config"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // Tests validate bucket LocationConstraint.

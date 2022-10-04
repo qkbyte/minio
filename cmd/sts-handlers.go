@@ -31,13 +31,13 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config/identity/openid"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	iampolicy "github.com/minio/pkg/iam/policy"
 	"github.com/minio/pkg/wildcard"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/config/identity/openid"
+	"github.com/qkbyte/minio/internal/hash/sha256"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

@@ -23,10 +23,10 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/minio/minio/internal/logger"
 	iampolicy "github.com/minio/pkg/iam/policy"
 	"github.com/prometheus/client_golang/prometheus"
 	"github.com/prometheus/common/expfmt"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 var (

@@ -21,8 +21,8 @@ import (
 	"crypto/x509"
 	"time"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 const (

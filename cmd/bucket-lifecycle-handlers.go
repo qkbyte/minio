@@ -23,10 +23,10 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
+	"github.com/qkbyte/minio/internal/bucket/lifecycle"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

@@ -20,8 +20,8 @@ package callhome
 import (
 	"time"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // Callhome related keys

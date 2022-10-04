@@ -30,10 +30,10 @@ import (
 	"time"
 
 	"github.com/beevik/ntp"
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/qkbyte/minio/internal/http"
 
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // RetMode - object retention mode.

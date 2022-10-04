@@ -27,10 +27,10 @@ import (
 	"io"
 	"path"
 
-	"github.com/minio/minio/internal/fips"
-	"github.com/minio/minio/internal/hash/sha256"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/sio"
+	"github.com/qkbyte/minio/internal/fips"
+	"github.com/qkbyte/minio/internal/hash/sha256"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // ObjectKey is a 256 bit secret key used to encrypt the object.

@@ -26,7 +26,7 @@ import (
 	"net/http"
 	"time"
 
-	xhttp "github.com/minio/minio/internal/http"
+	xhttp "github.com/qkbyte/minio/internal/http"
 )
 
 const (

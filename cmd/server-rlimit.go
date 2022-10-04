@@ -22,8 +22,8 @@ import (
 	"runtime/debug"
 
 	"github.com/minio/madmin-go/kernel"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/sys"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 func oldLinux() bool {

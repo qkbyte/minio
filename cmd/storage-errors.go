@@ -21,11 +21,11 @@ import (
 	"context"
 	"errors"
 
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // errUnexpected - unexpected error, requires manual intervention.
-var errUnexpected = StorageErr("unexpected error, please report this issue at https://github.com/minio/minio/issues")
+var errUnexpected = StorageErr("unexpected error, please report this issue at https://github.com/qkbyte/minio/issues")
 
 // errCorruptedFormat - corrupted backend format.
 var errCorruptedFormat = StorageErr("corrupted backend format, specified drive mount has unexpected previous content")

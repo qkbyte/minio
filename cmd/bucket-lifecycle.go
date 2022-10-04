@@ -31,13 +31,13 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/amztime"
-	sse "github.com/minio/minio/internal/bucket/encryption"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/event"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/s3select"
+	"github.com/qkbyte/minio/internal/amztime"
+	sse "github.com/qkbyte/minio/internal/bucket/encryption"
+	"github.com/qkbyte/minio/internal/bucket/lifecycle"
+	"github.com/qkbyte/minio/internal/event"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/s3select"
 )
 
 const (

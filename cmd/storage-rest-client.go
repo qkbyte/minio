@@ -33,11 +33,11 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/rest"
 	xnet "github.com/minio/pkg/net"
 	xbufio "github.com/philhofer/fwd"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/rest"
 	"github.com/tinylib/msgp/msgp"
 )
 

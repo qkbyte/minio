@@ -34,7 +34,7 @@ import (
 	"golang.org/x/crypto/chacha20poly1305"
 
 	"github.com/minio/kes"
-	"github.com/minio/minio/internal/hash/sha256"
+	"github.com/qkbyte/minio/internal/hash/sha256"
 )
 
 // Parse parses s as single-key KMS. The given string

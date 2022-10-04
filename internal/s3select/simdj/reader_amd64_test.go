@@ -25,9 +25,9 @@ import (
 	"testing"
 
 	"github.com/klauspost/compress/zstd"
-	"github.com/minio/minio/internal/s3select/json"
-	"github.com/minio/minio/internal/s3select/sql"
 	"github.com/minio/simdjson-go"
+	"github.com/qkbyte/minio/internal/s3select/json"
+	"github.com/qkbyte/minio/internal/s3select/sql"
 )
 
 type tester interface {

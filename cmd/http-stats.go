@@ -23,8 +23,8 @@ import (
 	"sync"
 	"sync/atomic"
 
-	"github.com/minio/minio/internal/logger"
 	"github.com/prometheus/client_golang/prometheus"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // ConnStats - Network statistics

@@ -26,11 +26,11 @@ import (
 	pathutil "path"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/amztime"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/lock"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/mimedb"
+	"github.com/qkbyte/minio/internal/amztime"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/lock"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // FS format, and object metadata.

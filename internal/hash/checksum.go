@@ -26,8 +26,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
+	"github.com/qkbyte/minio/internal/hash/sha256"
+	xhttp "github.com/qkbyte/minio/internal/http"
 )
 
 // MinIOMultipartChecksum is as metadata on multipart uploads to indicate checksum type.

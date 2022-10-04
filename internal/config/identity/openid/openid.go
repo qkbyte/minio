@@ -32,13 +32,13 @@ import (
 
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/identity/openid/provider"
-	"github.com/minio/minio/internal/hash/sha256"
 	iampolicy "github.com/minio/pkg/iam/policy"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/arn"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/config/identity/openid/provider"
+	"github.com/qkbyte/minio/internal/hash/sha256"
 )
 
 // OpenID keys and envs.

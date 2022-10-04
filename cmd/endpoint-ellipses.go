@@ -24,9 +24,9 @@ import (
 	"strings"
 
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/ellipses"
 	"github.com/minio/pkg/env"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // This file implements and supports ellipses pattern for

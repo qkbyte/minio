@@ -35,15 +35,15 @@ import (
 	"strings"
 
 	"github.com/minio/kes"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/etag"
-	"github.com/minio/minio/internal/fips"
-	"github.com/minio/minio/internal/hash"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/sio"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/etag"
+	"github.com/qkbyte/minio/internal/fips"
+	"github.com/qkbyte/minio/internal/hash"
+	"github.com/qkbyte/minio/internal/hash/sha256"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 var (

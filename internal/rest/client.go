@@ -32,9 +32,9 @@ import (
 	"sync/atomic"
 	"time"
 
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // DefaultTimeout - default REST timeout is 10 seconds.

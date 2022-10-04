@@ -23,8 +23,8 @@ import (
 	"fmt"
 	"hash/crc32"
 
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/sync/errgroup"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/sync/errgroup"
 )
 
 // figure out the most commonVersions across disk that satisfies

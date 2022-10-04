@@ -26,9 +26,9 @@ import (
 	"io"
 	"sync"
 
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/logger"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/ioutil"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // Calculates bitrot in chunks and writes the hash into the stream.

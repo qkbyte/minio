@@ -27,10 +27,10 @@ import (
 
 	"github.com/google/uuid"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // set encryption options for pass through to backend in the case of gateway and UserDefined metadata

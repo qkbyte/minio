@@ -26,10 +26,10 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/hash/sha256"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/hash/sha256"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // http Header "x-amz-content-sha256" == "UNSIGNED-PAYLOAD" indicates that the

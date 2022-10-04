@@ -6,7 +6,7 @@ MinIO Gateway adds Amazon S3 compatibility to NAS storage. You may run multiple 
 
 ## Support
 
-Gateway implementations are frozen and are not accepting any new features. Please reports any bugs at <https://github.com/minio/minio/issues> . If you are an existing customer please login to <https://subnet.min.io> for production support.
+Gateway implementations are frozen and are not accepting any new features. Please reports any bugs at <https://github.com/qkbyte/minio/issues> . If you are an existing customer please login to <https://subnet.min.io> for production support.
 
 ## Run MinIO Gateway for NAS Storage
 
@@ -39,7 +39,7 @@ MinIO Gateway comes with an embedded web based object browser. Point your web br
 
 | Dashboard                                                                                   | Creating a bucket                                                                           |
 | -------------                                                                               | -------------                                                                               |
-| ![Dashboard](https://github.com/minio/minio/blob/master/docs/screenshots/pic1.png?raw=true) | ![Dashboard](https://github.com/minio/minio/blob/master/docs/screenshots/pic2.png?raw=true) |
+| ![Dashboard](https://github.com/qkbyte/minio/blob/master/docs/screenshots/pic1.png?raw=true) | ![Dashboard](https://github.com/qkbyte/minio/blob/master/docs/screenshots/pic2.png?raw=true) |
 
 ## Test using MinIO Client `mc`
 

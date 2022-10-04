@@ -23,9 +23,9 @@ import (
 
 	"github.com/bcicen/jstream"
 	csv "github.com/minio/csvparser"
-	"github.com/minio/minio/internal/s3select/json"
-	"github.com/minio/minio/internal/s3select/sql"
 	"github.com/minio/simdjson-go"
+	"github.com/qkbyte/minio/internal/s3select/json"
+	"github.com/qkbyte/minio/internal/s3select/sql"
 )
 
 // Record - is JSON record.

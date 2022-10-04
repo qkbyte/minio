@@ -32,18 +32,18 @@ import (
 
 	"github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/bucket/lifecycle"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/config/dns"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/bucket/lifecycle"
+	"github.com/qkbyte/minio/internal/bucket/replication"
+	"github.com/qkbyte/minio/internal/config/dns"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/logger"
 
-	objectlock "github.com/minio/minio/internal/bucket/object/lock"
-	"github.com/minio/minio/internal/bucket/versioning"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/hash"
 	"github.com/minio/pkg/bucket/policy"
+	objectlock "github.com/qkbyte/minio/internal/bucket/object/lock"
+	"github.com/qkbyte/minio/internal/bucket/versioning"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/hash"
 )
 
 // APIError structure
@@ -256,7 +256,7 @@ const (
 	ErrInvalidStorageClass
 	ErrBackendDown
 	// Add new extended error codes here.
-	// Please open a https://github.com/minio/minio/issues before adding
+	// Please open a https://github.com/qkbyte/minio/issues before adding
 	// new error codes here.
 
 	ErrMalformedJSON

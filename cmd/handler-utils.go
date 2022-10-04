@@ -30,11 +30,11 @@ import (
 	"strings"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/auth"
-	"github.com/minio/minio/internal/handlers"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/auth"
+	"github.com/qkbyte/minio/internal/handlers"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (
@@ -405,7 +405,7 @@ func errorResponseHandler(w http.ResponseWriter, r *http.Request) {
 	if r.Method == http.MethodOptions {
 		return
 	}
-	desc := "Do not upgrade one server at a time - please follow the recommended guidelines mentioned here https://github.com/minio/minio#upgrading-minio for your environment"
+	desc := "Do not upgrade one server at a time - please follow the recommended guidelines mentioned here https://github.com/qkbyte/minio#upgrading-minio for your environment"
 	switch {
 	case strings.HasPrefix(r.URL.Path, peerRESTPrefix):
 		writeErrorResponseString(r.Context(), w, APIError{

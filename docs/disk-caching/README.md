@@ -38,7 +38,7 @@ To test this setup, access the MinIO gateway via browser or [`mc`](https://min.i
 
 ## Explore Further
 
-- [Disk cache design](https://github.com/minio/minio/blob/master/docs/disk-caching/DESIGN.md)
+- [Disk cache design](https://github.com/qkbyte/minio/blob/master/docs/disk-caching/DESIGN.md)
 - [Use `mc` with MinIO Server](https://min.io/docs/minio/linux/reference/minio-mc.html#quickstart)
 - [Use `aws-cli` with MinIO Server](https://min.io/docs/minio/linux/integrations/aws-cli-with-minio.html)
 - [Use `minio-go` SDK with MinIO Server](https://min.io/docs/minio/linux/developers/go/minio-go.html)

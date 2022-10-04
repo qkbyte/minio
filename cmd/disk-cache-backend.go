@@ -37,17 +37,17 @@ import (
 	"time"
 
 	"github.com/djherbis/atime"
-	"github.com/minio/minio/internal/amztime"
-	"github.com/minio/minio/internal/config/cache"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/disk"
-	"github.com/minio/minio/internal/fips"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	xioutil "github.com/minio/minio/internal/ioutil"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/sio"
+	"github.com/qkbyte/minio/internal/amztime"
+	"github.com/qkbyte/minio/internal/config/cache"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/disk"
+	"github.com/qkbyte/minio/internal/fips"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	xioutil "github.com/qkbyte/minio/internal/ioutil"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

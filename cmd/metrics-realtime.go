@@ -22,7 +22,7 @@ import (
 	"time"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/disk"
+	"github.com/qkbyte/minio/internal/disk"
 )
 
 func collectLocalMetrics(types madmin.MetricType, hosts map[string]struct{}, disks map[string]struct{}) (m madmin.RealtimeMetrics) {

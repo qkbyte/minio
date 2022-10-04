@@ -29,9 +29,9 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/logger"
 
 	sarama "github.com/Shopify/sarama"
 	saramatls "github.com/Shopify/sarama/tools/tls"

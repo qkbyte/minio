@@ -23,8 +23,8 @@ import (
 	"net/http"
 
 	"github.com/gorilla/mux"
-	"github.com/minio/minio/internal/logger"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 func (a adminAPIHandlers) StartDecommission(w http.ResponseWriter, r *http.Request) {

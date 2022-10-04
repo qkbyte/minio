@@ -38,14 +38,14 @@ import (
 	miniogo "github.com/minio/minio-go/v7"
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	"github.com/minio/minio/internal/bucket/bandwidth"
-	"github.com/minio/minio/internal/bucket/replication"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/crypto"
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/hash"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/bucket/bandwidth"
+	"github.com/qkbyte/minio/internal/bucket/replication"
+	"github.com/qkbyte/minio/internal/config/storageclass"
+	"github.com/qkbyte/minio/internal/crypto"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/hash"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

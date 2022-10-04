@@ -28,9 +28,9 @@ import (
 	"path/filepath"
 	"sync"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/logger"
 	"github.com/streadway/amqp"
 )
 

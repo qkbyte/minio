@@ -26,9 +26,9 @@ import (
 
 	humanize "github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go"
-	color "github.com/minio/minio/internal/color"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
+	color "github.com/qkbyte/minio/internal/color"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // generates format string depending on the string length and padding.

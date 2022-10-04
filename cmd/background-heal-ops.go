@@ -22,7 +22,7 @@ import (
 	"runtime"
 
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/pubsub"
+	"github.com/qkbyte/minio/internal/pubsub"
 )
 
 // healTask represents what to heal along with options

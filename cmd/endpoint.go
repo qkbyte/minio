@@ -33,11 +33,11 @@ import (
 
 	"github.com/dustin/go-humanize"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/logger"
-	"github.com/minio/minio/internal/mountinfo"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/mountinfo"
 )
 
 // EndpointType - enum for endpoint type.

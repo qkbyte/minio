@@ -28,16 +28,16 @@ import (
 
 	"github.com/gorilla/mux"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/config/cache"
-	"github.com/minio/minio/internal/config/etcd"
-	xldap "github.com/minio/minio/internal/config/identity/ldap"
-	"github.com/minio/minio/internal/config/identity/openid"
-	idplugin "github.com/minio/minio/internal/config/identity/plugin"
-	polplugin "github.com/minio/minio/internal/config/policy/plugin"
-	"github.com/minio/minio/internal/config/storageclass"
-	"github.com/minio/minio/internal/logger"
 	iampolicy "github.com/minio/pkg/iam/policy"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/config/cache"
+	"github.com/qkbyte/minio/internal/config/etcd"
+	xldap "github.com/qkbyte/minio/internal/config/identity/ldap"
+	"github.com/qkbyte/minio/internal/config/identity/openid"
+	idplugin "github.com/qkbyte/minio/internal/config/identity/plugin"
+	polplugin "github.com/qkbyte/minio/internal/config/policy/plugin"
+	"github.com/qkbyte/minio/internal/config/storageclass"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // DelConfigKVHandler - DELETE /minio/admin/v3/del-config-kv

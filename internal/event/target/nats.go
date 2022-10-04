@@ -28,11 +28,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/minio/minio/internal/event"
-	"github.com/minio/minio/internal/logger"
 	xnet "github.com/minio/pkg/net"
 	"github.com/nats-io/nats.go"
 	"github.com/nats-io/stan.go"
+	"github.com/qkbyte/minio/internal/event"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // NATS related constants

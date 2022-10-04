@@ -23,10 +23,10 @@ import (
 	"io"
 	"net/http"
 
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
 	iampolicy "github.com/minio/pkg/iam/policy"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // Authorization Plugin config and env variables

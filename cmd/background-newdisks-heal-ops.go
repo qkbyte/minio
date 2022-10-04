@@ -31,7 +31,7 @@ import (
 	"github.com/dustin/go-humanize"
 	"github.com/minio/madmin-go"
 	"github.com/minio/minio-go/v7/pkg/set"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

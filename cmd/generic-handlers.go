@@ -31,12 +31,12 @@ import (
 	"github.com/minio/minio-go/v7/pkg/set"
 	xnet "github.com/minio/pkg/net"
 
-	"github.com/minio/minio/internal/amztime"
-	"github.com/minio/minio/internal/config/dns"
-	"github.com/minio/minio/internal/crypto"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/http/stats"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/amztime"
+	"github.com/qkbyte/minio/internal/config/dns"
+	"github.com/qkbyte/minio/internal/crypto"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/http/stats"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 const (

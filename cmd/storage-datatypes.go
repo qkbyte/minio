@@ -143,7 +143,7 @@ type RawFileInfo struct {
 
 	// DiskMTime indicates the mtime of the xl.meta on disk
 	// This is mainly used for detecting a particular issue
-	// reported in https://github.com/minio/minio/pull/13803
+	// reported in https://github.com/qkbyte/minio/pull/13803
 	DiskMTime time.Time `msg:"dmt"`
 }
 
@@ -227,7 +227,7 @@ type FileInfo struct {
 
 	// DiskMTime indicates the mtime of the xl.meta on disk
 	// This is mainly used for detecting a particular issue
-	// reported in https://github.com/minio/minio/pull/13803
+	// reported in https://github.com/qkbyte/minio/pull/13803
 	DiskMTime time.Time `msg:"dmt"`
 
 	// Combined checksum when object was uploaded.

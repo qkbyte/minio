@@ -20,9 +20,9 @@ package logger
 import (
 	"sync"
 
-	"github.com/minio/minio/internal/logger/target/http"
-	"github.com/minio/minio/internal/logger/target/kafka"
-	"github.com/minio/minio/internal/logger/target/types"
+	"github.com/qkbyte/minio/internal/logger/target/http"
+	"github.com/qkbyte/minio/internal/logger/target/kafka"
+	"github.com/qkbyte/minio/internal/logger/target/types"
 )
 
 // Target is the entity that we will receive

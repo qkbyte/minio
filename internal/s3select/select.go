@@ -33,13 +33,13 @@ import (
 	"github.com/klauspost/compress/s2"
 	"github.com/klauspost/compress/zstd"
 	gzip "github.com/klauspost/pgzip"
-	"github.com/minio/minio/internal/s3select/csv"
-	"github.com/minio/minio/internal/s3select/json"
-	"github.com/minio/minio/internal/s3select/parquet"
-	"github.com/minio/minio/internal/s3select/simdj"
-	"github.com/minio/minio/internal/s3select/sql"
 	"github.com/minio/simdjson-go"
 	"github.com/pierrec/lz4"
+	"github.com/qkbyte/minio/internal/s3select/csv"
+	"github.com/qkbyte/minio/internal/s3select/json"
+	"github.com/qkbyte/minio/internal/s3select/parquet"
+	"github.com/qkbyte/minio/internal/s3select/simdj"
+	"github.com/qkbyte/minio/internal/s3select/sql"
 )
 
 type recordReader interface {

@@ -29,8 +29,8 @@ import (
 
 	jsoniter "github.com/json-iterator/go"
 	"github.com/minio/madmin-go"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/kms"
 )
 
 const (

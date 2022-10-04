@@ -25,7 +25,7 @@ import (
 	"sync"
 
 	"github.com/bcicen/jstream"
-	"github.com/minio/minio/internal/s3select/sql"
+	"github.com/qkbyte/minio/internal/s3select/sql"
 )
 
 // PReader - JSON record reader for S3Select.

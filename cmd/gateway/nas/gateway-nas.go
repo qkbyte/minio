@@ -21,7 +21,7 @@ import (
 
 	"github.com/minio/cli"
 	"github.com/minio/madmin-go"
-	minio "github.com/minio/minio/cmd"
+	minio "github.com/qkbyte/minio/cmd"
 )
 
 func init() {

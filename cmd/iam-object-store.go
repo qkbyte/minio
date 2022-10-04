@@ -26,9 +26,9 @@ import (
 	"unicode/utf8"
 
 	jsoniter "github.com/json-iterator/go"
-	"github.com/minio/minio/internal/config"
-	"github.com/minio/minio/internal/kms"
-	"github.com/minio/minio/internal/logger"
+	"github.com/qkbyte/minio/internal/config"
+	"github.com/qkbyte/minio/internal/kms"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // IAMObjectStore implements IAMStorageAPI

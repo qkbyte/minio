@@ -28,10 +28,10 @@ import (
 	"net/url"
 	"regexp"
 
-	"github.com/minio/minio/internal/arn"
-	"github.com/minio/minio/internal/config"
 	"github.com/minio/pkg/env"
 	xnet "github.com/minio/pkg/net"
+	"github.com/qkbyte/minio/internal/arn"
+	"github.com/qkbyte/minio/internal/config"
 )
 
 // Authentication Plugin config and env variables

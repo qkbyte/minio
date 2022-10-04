@@ -34,12 +34,12 @@ import (
 	"github.com/minio/minio-go/v7/pkg/encrypt"
 	"github.com/minio/minio-go/v7/pkg/s3utils"
 	"github.com/minio/minio-go/v7/pkg/tags"
-	minio "github.com/minio/minio/cmd"
-	"github.com/minio/minio/internal/config"
-	xhttp "github.com/minio/minio/internal/http"
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/bucket/policy"
 	"github.com/minio/pkg/env"
+	minio "github.com/qkbyte/minio/cmd"
+	"github.com/qkbyte/minio/internal/config"
+	xhttp "github.com/qkbyte/minio/internal/http"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 func init() {

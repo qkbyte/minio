@@ -25,8 +25,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/minio/minio/internal/logger"
 	"github.com/minio/pkg/console"
+	"github.com/qkbyte/minio/internal/logger"
 )
 
 // a bucketMetacache keeps track of all caches generated
